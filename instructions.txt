@@ -1,0 +1,47 @@
+
+05/06/25
+Using JSON - 3 Practice: Creating JSON Objects
+
+Instructions
+Create a JSON object representing a movie in a catalog, using various basic JSON
+data types, including strings, numbers, booleans, arrays, and nested objects. Then
+answer questions to consider the choices you made in your code.
+Scenario:
+You are working for a streaming service that needs a database of movies. Your task
+is to create a JSON object representing a single movie. The object should include the following details:
+    a. Title (string): The name of the movie.
+    b. Year (number): The release year of the movie.
+    c. IsAvailable (boolean): Whether the movie is available for streaming (true/false).
+    d. Genres (array): A list of genres associated with the movie (e.g., "Action", "Comedy").
+    e. Cast (array): A list of objects, where each object represents an actor. Each
+    actor object should include:
+        i. Name (string)
+        ii. Role (string, e.g., "Lead", "Supporting")
+===== TASKS =====
+1. Write a JSON object that meets these requirements:
+a. Use at least one nested object (the Cast array with actor objects).
+b. Include at least three genres and two cast members.
+
+
+streaming service > movie > {title, year, isAvailable, genres[], cast[{name, role}, {name, role}, {name, role}]}
+
+    {
+        "title": ,
+        "year": ,
+        "isAvailable": ,
+        "genres": [],
+        "cast": [
+            {
+                "name": ,
+                "role":
+            },
+            {
+                "name": ,
+                "role":
+            },
+            {
+                "name": ,
+                "role":
+            }
+        ]
+    }

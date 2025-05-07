@@ -1,4 +1,48 @@
-/*
-05/06/25
-Using JSON - 3 Practice: Creating JSON Objects
-*/
+[
+    {
+        "title": "Harry Potter and the Chamber of Secrets",
+        "year": 2002,
+        "isAvailable": true,
+        "genres": [
+            "Family",
+            "Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Daniel Radcliffe",
+                "role": "Harry Potter"
+            },
+            {
+                "name": "Emma Watson",
+                "role": "Hermione Granger"
+            },
+            {
+                "name": "Rupert Grint",
+                "role": "Ronald Weasley"
+            }
+        ]
+    },
+    {
+        "title": "How to train your dragon",
+        "year": 2010,
+        "isAvailable": false,
+        "genres": [
+            "Family",
+            "Adventure"
+        ],
+        "cast": [
+            {
+                "name": "Jay Baruchel",
+                "role": "Hiccup"
+            },
+            {
+                "name": "America Ferrera",
+                "role": "Astrid"
+            },
+            {
+                "name": "Jonah Hill",
+                "role": "Snotlout"
+            }
+        ]
+    }
+]
